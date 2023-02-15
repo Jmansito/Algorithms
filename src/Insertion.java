@@ -40,27 +40,4 @@ public class Insertion {
         }
         return arr;
     }
-
-    // Function to print out an array
-    public static void output(Double[] arr){
-        for (Double v : arr) {System.out.print(v + " ");}
-    }
-
-    public static void main(String[] args){
-        // Create scanner object for user input
-        Scanner myObj = new Scanner(System.in);
-        System.out.println("Enter new array to be sorted: ");
-        // Using tokens to separate the line of numbers into an array
-        String userLine = myObj.nextLine();
-        // Split all numbers on the spaces
-        String[] tokens = userLine.split(" ");
-        // Create new double arraylist for the numbers
-        Double[] userNumbers = new Double[tokens.length];
-        for(int i = 0; i < userNumbers.length; i++){
-            userNumbers[i] = Double.parseDouble(tokens[i]);
-        }
-        // Print out the sorted array
-        output(insertionSort(userNumbers));
-
-    }
 }
