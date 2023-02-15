@@ -51,3 +51,14 @@ the unsorted portion of the list and moving it to the sorted portion of the list
 - Then, increment min_idx to point to the next element.
 - Repeat until the array is sorted.
 ----
+### **Part 3: Bubble Sort**
+Class: Bubble.java
+<p>"Simplest sorting algorithm" that works by repeatedly swapping the adjacent elements
+if they are in the wrong order. Not suitable for large data sets, and it is quite slow.</p>
+
+#### Steps for bubble sort:
+
+- Run a nested for loop to traverse the input array using two variables i and j, such that 0 <= i < n - 1 and 0 <= j < n - i - 1
+- If arr[j] is greater than ar[j+1] then swap these adjacent elements, else move on.
+- Print the sorted array
+----

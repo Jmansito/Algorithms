@@ -22,7 +22,11 @@ public class Main {
             userNumbers[i] = Double.parseDouble(tokens[i]);
         }
 
+        System.out.println("Selection sort results: ");
         output(Selection.selection(userNumbers));
+        System.out.println("\nInsertion sort results: ");
         output(Insertion.insertionSort(userNumbers));
+        System.out.println("\nBubble sort results: ");
+        output(Bubble.bubble(userNumbers));
     }
 }
