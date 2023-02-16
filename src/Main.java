@@ -22,7 +22,12 @@ public class Main {
             userNumbers[i] = Double.parseDouble(tokens[i]);
         }
 
-        System.out.println("Selection sort results: ");
+        // Reverse string practice
+        System.out.println("Reverse String \"String Test\": ");
+        System.out.println(ReverseString.reverse("String Test"));
+
+        // Sorting results
+        System.out.println("\nSelection sort results: ");
         output(Selection.selection(userNumbers));
         System.out.println("\nInsertion sort results: ");
         output(Insertion.insertionSort(userNumbers));
