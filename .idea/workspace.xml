@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fd04a65d-802e-4e3d-8e97-3dce941b7d92" name="Changes" comment="added Bubble.java">
-      <change afterPath="$PROJECT_DIR$/src/ReverseString.java" afterDir="false" />
+    <list default="true" id="fd04a65d-802e-4e3d-8e97-3dce941b7d92" name="Changes" comment="added ReverseString.java">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +86,8 @@
       <workItem from="1676304425076" duration="8904000" />
       <workItem from="1676396467664" duration="3475000" />
       <workItem from="1676480116429" duration="2871000" />
-      <workItem from="1676568432419" duration="2635000" />
+      <workItem from="1676568432419" duration="3295000" />
+      <workItem from="1677523187269" duration="985000" />
     </task>
     <task id="LOCAL-00001" summary="added selection sort">
       <created>1676398667568</created>
@@ -117,7 +117,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676482994565</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="added ReverseString.java">
+      <created>1676571086380</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1676571086380</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -138,6 +145,7 @@
     <MESSAGE value="added selection sort" />
     <MESSAGE value="added Main.java" />
     <MESSAGE value="added Bubble.java" />
-    <option name="LAST_COMMIT_MESSAGE" value="added Bubble.java" />
+    <MESSAGE value="added ReverseString.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="added ReverseString.java" />
   </component>
 </project>

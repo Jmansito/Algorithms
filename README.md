@@ -62,3 +62,39 @@ if they are in the wrong order. Not suitable for large data sets, and it is quit
 - If arr[j] is greater than ar[j+1] then swap these adjacent elements, else move on.
 - Print the sorted array
 ----
+### **Part 4: Merge sort**
+Class: Merge.java
+<p> The process of merge sort is to divide the array into two halves, 
+sort each half, and then merge the sorted halves back together. 
+This process is repeated until the entire array is sorted.</p>
+
+- Algorithm for merge sort:
+```
+step 1: start
+step 2: declare array and left, right, mid variable
+step 3: perform merge function.
+    if left > right
+        return
+    mid= (left+right)/2
+    mergesort(array, left, mid)
+    mergesort(array, mid+1, right)
+    merge(array, left, mid, right)
+step 4: Stop
+```
+
+#### Steps for merge:
+Follow the steps below to solve the problem:
+
+MergeSort(arr[], l,  r)  
+If r > l
+
+Find the middle point to divide the array into two halves:  
+middle m = l + (r – l)/2  
+Call mergeSort for first half:     
+Call mergeSort(arr, l, m)  
+Call mergeSort for second half:  
+Call mergeSort(arr, m + 1, r)  
+Merge the two halves sorted in steps 2 and 3:  
+Call merge(arr, l, m, r)  
+
+----
